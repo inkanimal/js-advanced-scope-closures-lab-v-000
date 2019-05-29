@@ -12,8 +12,7 @@ function produceTipCalculator(percentage){
 }
 
 function createDriver(){
-  return function(){
-     let ItemId = 0;
+     let driverId = 0;
   // return the class
   return class {
     constructor(name, manufacturePrice) {
