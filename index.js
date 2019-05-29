@@ -10,3 +10,9 @@ function produceTipCalculator(percentage){
     return tip * percentage;
   }
 }
+
+function createDriver(){
+  return function(){
+    
+  }
+}
